@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Environment variables — never commit real secrets
+.env
+.env.local
+.env.*.local
+
+# Firebase service account key — never commit this
+server/serviceAccountKey.json
+*serviceAccountKey*.json
+*.pem
+
+# OS / editor
+.DS_Store
+.vscode/settings.json
